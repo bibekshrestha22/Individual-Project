@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Gallery</title>
+<style>
+	body{
+			background-image:url("image/back.jpg");
+			background-repeat: no-repeat;
+  			background-attachment: fixed;
+  			background-size: 100% 100%;
+  			color: white;
+  			font-family: "Times New Roman", Times, serif;
+		}
+		table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+.active {
+  background-color: #e7642c;
+}
+video{
+	border-radius: 20px;
+}
+</style>
+</head>
+
+<body>
+	<h1 style="text-align:center; color: white; border: 5px solid #e7642c;"> MY PHOTO AND VIDEO GALLERY</h1>
+	<hr/>
+	<nav>
+<ul>
+  <li><a href="index.html">Home</a></li>
+  <li><a href="about.html">About</a></li>
+  <li><a href="Achievements.html">Achievements</a></li>
+  <li><a class="active" href="Gallery.html">Gallery</a></li>
+  <li><a href="Contact.html">Contact</a></li>
+</ul>
+</nav>
+<hr/>
+
+	<div align="center">
+		<h2>My Custom Video</h2>
+	<video border="2px" width="70%" height="70%" controls muted autoplay="autoplay" loop>
+  <source src="Video/myvideo.mp4" type="video/mp4">
+  <source src="movie.ogg" type="video/ogg">
+  Your browser does not support the video tag.
+</video>
+
+	</div>	
+		
+		
+	<div>
+		<h2 align="center"> MY PHOTOS</h2>
+		<table width=100%, cellpadding="10px">
+			<tr>
+				<td>
+				 <img src="Image\me2.jpg" alt="Photo of Bibek Shrestha" width="350px" height="350px"/>
+				</td>
+				<td>
+				 <img src="Image\me4.jpg" alt="Photo of Bibek Shrestha" width="350px" height="350px"/>
+				</td>
+				<td>
+				 <img src="Image\me5.jpg" alt="Photo of Bibek Shrestha" width="350px" height="350px"/>
+				</td>
+			 	<td>
+				<img src="Image\me7.jpg" alt="Photo of Bibek Shrestha" width="350px" height="350px"/>
+				</td>
+			</tr>
+			<tr>
+				<td>
+				 <img src="Image\me1.jpg" alt="Photo of Bibek Shrestha" width="350px" height="350px"/>
+				</td>
+				<td>
+				 <img src="Image\me3.jpg" alt="Photo of Bibek Shrestha" width="350px" height="350px"/>
+				</td>
+				 <td>
+				 <img src="Image\me6.jpg" alt="Photo of Bibek Shrestha" width="350px" height="350px"/>
+				</td>
+				<td>
+				<img src="Image\me8.jpg" alt="Photo of Bibek Shrestha" width="350px" height="350px"/>
+				 </td>
+			</tr>
+		
+			<tr>
+				<td>
+				 <img src="Image\me9.jpg" alt="Photo of Bibek Shrestha" width="350px" height="350px"/>
+				</td>
+				<td>
+				 <img src="Image\me10.jpeg" alt="Photo of Bibek Shrestha" width="350px" height="350px"/>
+				</td>
+				<td>
+				 <img src="Image\me13.jpg" alt="Photo of Bibek Shrestha" width="350px" height="350px"/>
+				</td>
+			 	<td>
+				<img src="Image\me12.jpg" alt="Photo of Bibek Shrestha" width="350px" height="350px"/>
+				</td>
+			</tr>
+			<tr>
+				<td>
+				 <img src="Image\me15.jpg" alt="Photo of Bibek Shrestha" width="350px" height="350px"/>
+				</td>
+				<td>
+				 <img src="Image\me16.jpg" alt="Photo of Bibek Shrestha" width="350px" height="350px"/>
+				</td>
+				 <td>
+				 <img src="Image\me17.jpg" alt="Photo of Bibek Shrestha" width="350px" height="350px"/>
+				</td>
+				<td>
+				<img src="Image\me14.jpg" alt="Photo of Bibek Shrestha" width="350px" height="350px"/>
+				 </td>
+			</tr>
+		</table>
+	</div>
+</body>
+<hr/>
+<footer> 
+<p align="center">Copyright 1999-2021 by KCGI. All Rights Reserved.</p>
+<p align="center">This site is built using HTML</p>
+</footer>
+</html>
